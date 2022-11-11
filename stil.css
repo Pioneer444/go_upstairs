@@ -1,0 +1,29 @@
+
+
+body{
+    height: 4000px;
+    background-color: beige;
+}
+
+.yukarı_cık{
+    display: none;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #4AC2BF;
+    line-height: 80px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.yukarı_cık:hover{
+    cursor: pointer;
+    background-color: #111827;
+}
+
+.göster{
+    display: block;
+}
